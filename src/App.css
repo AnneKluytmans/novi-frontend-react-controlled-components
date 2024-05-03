@@ -1,1 +1,54 @@
-/*Schrijf hier jouw css voor jouw formulier*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;600;700&display=swap');
+
+form {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: chocolate;
+    background-color: peachpuff;
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+button, input {
+    font-family: inherit;
+}
+
+fieldset {
+    border: 2px solid chocolate;
+    padding: 10px;
+    margin: 20px 40px;
+}
+
+legend {
+    font-weight: bold;
+    color: chocolate;
+}
+
+label {
+    display: block;
+    padding: 10px;
+    margin: 5px 10px;
+}
+
+
+textarea {
+    display: block;
+    margin-top: 10px;
+}
+
+button {
+    background-color: chocolate;
+    color: peachpuff;
+    letter-spacing: 1px;
+    border: 1px solid maroon;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin: 5px 20px;
+    }
+
+button:hover {
+    cursor: pointer;
+}
