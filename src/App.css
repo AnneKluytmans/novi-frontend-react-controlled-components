@@ -2,6 +2,7 @@
 
 form {
     font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
     color: maroon;
     background-color: peachpuff;
     width: 100%;
@@ -36,22 +37,26 @@ label {
 }
 
 input {
+    padding: 10px;
     margin: 0 10px;
 }
 
 textarea {
     display: block;
+    padding: 10px;
     margin-top: 10px;
+    height: 100px;
+    width: 100%;
 }
 
 button {
-    font-size: 14px;
+    font-size: 18px;
     letter-spacing: 1px;
     background-color: chocolate;
     color: peachpuff;
     border: 1px solid maroon;
     border-radius: 30px;
-    padding: 8px 12px;
+    padding: 5px 12px;
     margin: 5px 20px;
     }
 
